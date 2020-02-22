@@ -1,16 +1,16 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import './App.scss';
+import styles from './App.module.scss';
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className={styles.app}>
+      <header className={styles.header}>
+        <img src={logo} className={styles.logo} alt="logo" />
         <h1>egonoid React Template</h1>
         <p>Happy Coding!</p>
         <a
-          className="App-link"
+          className={styles.link}
           href="https://www.egonoid.com"
           target="_blank"
           rel="noopener noreferrer"
