@@ -24,8 +24,7 @@
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "tslint --project .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
-    "lint:fix": "tslint --fix --project .",
-    "fix": "concurrently \"prettier --write 'src/**/*.{ts,tsx,scss,md}'\" \"tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json\" \"stylelint --fix 'src/**/*.scss'\"",
+    "format": "prettier --write './**/*.{ts,tsx,scss,md,json,js}'",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
