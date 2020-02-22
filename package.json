@@ -27,7 +27,8 @@
     "lint:fix": "tslint --fix --project .",
     "fix": "concurrently \"prettier --write 'src/**/*.{ts,tsx,scss,md}'\" \"tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json\" \"stylelint --fix 'src/**/*.scss'\"",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -56,6 +57,7 @@
     "lint-staged": "^10.0.7",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
+    "source-map-explorer": "^2.3.1",
     "stylelint": "^13.2.0",
     "stylelint-config-prettier": "^7.0.0",
     "stylelint-config-recommended-scss": "^4.2.0",
