@@ -1,4 +1,4 @@
-![Travis CI Build](https://travis-ci.com/egonoid/react-template.svg?token=rphBkVazWjsmnr3TZd2K&branch=master 'Travis CI Build')
+[![Travis CI Build](https://travis-ci.com/egonoid/react-template.svg?token=rphBkVazWjsmnr3TZd2K&branch=master 'Travis CI Build')](https://travis-ci.com/egonoid/react-template)
 
 # egonoid React Template
 
