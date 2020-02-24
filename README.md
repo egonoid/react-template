@@ -1,3 +1,5 @@
+![Travis CI Build](https://travis-ci.com/egonoid/react-template.svg?token=rphBkVazWjsmnr3TZd2K&branch=master 'Travis CI Build')
+
 # egonoid React Template
 
 Use this template when creating a new react project. It's based on create-react-app for more information and docs visit [create-react-app.dev](https://create-react-app.dev/)
