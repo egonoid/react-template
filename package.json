@@ -1,7 +1,12 @@
 {
-  "name": "cazzino-test-project",
-  "version": "0.1.0",
+  "name": "react-template",
   "private": true,
+  "description": "Template starter project for egonoid React apps.",
+  "version": "0.1.0",
+  "author": "egonoid GmbH (https://www.egonoid.com)",
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,7 +22,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -26,7 +31,7 @@
     "lint:ts": "tslint --project .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "format": "prettier --write './**/*.{ts,tsx,scss,md,json,js}'",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "start-storybook --ci -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
