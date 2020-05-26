@@ -1,3 +1,5 @@
+@import '../../styles/shared';
+
 .app {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .header {
-  background-color: #282c34;
+  background-color: $primary;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +24,46 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  h1 {
+    font-weight: 800;
+  }
+
+  p {
+    font-weight: 300;
+  }
 }
 
 .link {
-  color: #61dafb;
+  font-weight: 400;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+    opacity: 0;
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+
+    &::before {
+      visibility: visible;
+      transform: scaleX(1);
+      opacity: 1;
+    }
+  }
 }
 
 @keyframes app-logo-spin {

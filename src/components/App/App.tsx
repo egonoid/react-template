@@ -8,8 +8,8 @@ const App = () => {
     <StateProvider>
       <div className={styles.app}>
         <header className={styles.header}>
-          <img src={logo} className={styles.logo} alt="logo" />
           <h1>egonoid React Template</h1>
+          <img src={logo} className={styles.logo} alt="logo" />
           <p>Happy Coding!</p>
           <a
             className={styles.link}
