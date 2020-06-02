@@ -2,7 +2,7 @@
   "name": "react-template",
   "private": true,
   "description": "Template starter project for egonoid React apps.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "bugs": {
     "url": "https://github.com/egonoid/react-template/issues"
@@ -16,7 +16,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "bootstrap-scss": "^4.4.1",
+    "bootstrap-scss": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -63,7 +63,7 @@
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.6",
+    "lint-staged": "^10.2.7",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "source-map-explorer": "^2.4.2",
