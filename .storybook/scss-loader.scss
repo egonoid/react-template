@@ -2,7 +2,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+  src: local('Open Sans'), url('../src/assets/fonts/OpenSans-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSansLight'),
-    url('../assets/fonts/OpenSans-Light.ttf') format('truetype');
+    url('../src/assets/fonts/OpenSans-Light.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -20,7 +20,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans SemiBold'), local('OpenSansSemiBold'),
-    url('../assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+    url('../src/assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -29,6 +29,9 @@
   font-style: normal;
   font-weight: 800;
   src: local('Open Sans Bold'), local('OpenSansBold'),
-    url('../assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    url('../src/assets/fonts/OpenSans-Bold.ttf') format('truetype');
   font-display: swap;
 }
+
+@import '../src/styles/variables';
+@import '../src/styles/bootstrap/base';

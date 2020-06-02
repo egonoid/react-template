@@ -3,5 +3,9 @@ node_js:
   - stable
 cache: yarn
 script:
+  - yarn
   - yarn build
   - yarn test:single
+notifications:
+  slack:
+    secure: UuZnk6B/gmeo7Sd2XjsZSEZi1+3nKFSV6rFdAY19O9Pon24AMJOE4iSbqrvdMFrBma2oz2ii5EO5cBE/kIjz5/p4hwkV7dgM3ihLcp2Qszv9B3F24yEDxOSkOQM0tr3FXeb6D7anrE52hkwsHifUNp28Kjm/eOyUpO4VF0JmhwzrAYv61MZhIRDox8KCuY4BULzDA7gD7myIRv4JH/NWZNhy8VZMyFOyatQHkQDlktwNL0GKcxvhFX0CfFqrNGRdGBvuPNWQ4vjOF2TSp79SHiZThggodPwBWs6Vgl1qu514x4Cm1K0aJ+TDfk/hrKNtyQJfm+jI/6mBN9he1MAbdAAsBvWYGPFxBOaiabJefQiieQGN5td/XLIT+VmJ8SDJ1AZGHoUQu1pbmzsa09dgxOPfx0g1Ho8PDzp0B3jpfjHKZXi51CIIIFtdLc82Sjb8vGG/hTJ0VnKScmyskz9k8XPv+Lp4f/adh5y+Y0hArOY727KRmysC/SdsBtB1ZLvhJ8budQ+fFe299kp+HHXc/h293Ncaf3i9IWgzjXHXBD3nkg63f3881Aavq1VZpMLvl/VVzqdcVWTcN/M+Mm6GGdcgha7r7Twm2Wq1PB9ckThUI0XiSmK9Nq3RPtHhG7rv0+iapPz21/k0eDeRBETuXD8DqgGQnkr3iIZvPYpTFAs=

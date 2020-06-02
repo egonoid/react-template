@@ -11,14 +11,14 @@ Object {
         <header
           class="header"
         >
+          <h1>
+            egonoid React Template
+          </h1>
           <img
             alt="logo"
             class="logo"
             src="logo.svg"
           />
-          <h1>
-            egonoid React Template
-          </h1>
           <p>
             Happy Coding!
           </p>
@@ -41,14 +41,14 @@ Object {
       <header
         class="header"
       >
+        <h1>
+          egonoid React Template
+        </h1>
         <img
           alt="logo"
           class="logo"
           src="logo.svg"
         />
-        <h1>
-          egonoid React Template
-        </h1>
         <p>
           Happy Coding!
         </p>
