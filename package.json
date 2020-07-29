@@ -2,7 +2,7 @@
   "name": "react-template",
   "private": true,
   "description": "Template starter project for egonoid React apps.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "bugs": {
     "url": "https://github.com/egonoid/react-template/issues"
