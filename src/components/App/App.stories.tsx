@@ -1,6 +1,10 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 
 import App from '.';
 
-storiesOf('Components/App', module).add('default', () => <App />);
+export default {
+  title: 'UI/App',
+  component: App,
+};
+
+export const Default = () => <App />;

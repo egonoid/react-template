@@ -2,13 +2,13 @@ import { create } from '@storybook/theming/create';
 
 export default create({
   base: 'light',
-  colorPrimary: '#2f74bb',
-  colorSecondary: '#80A2CC',
+  colorPrimary: '#2f74bb', // $color-primary
+  colorSecondary: '#79acd4', // $color-primary-4
 
   // UI
-  appBg: '#FFF',
-  appContentBg: '#FFF',
-  appBorderColor: '#2672B8',
+  appBg: '#fff', // $white
+  appContentBg: '#fff', // $white
+  appBorderColor: '#10396e', // $color-primary-8
   appBorderRadius: 8,
 
   // Typography
@@ -16,18 +16,18 @@ export default create({
   fontCode: 'monospace',
 
   // Text colors
-  textColor: '#000',
+  textColor: '#262626', // $color-gray-10
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
-  barTextColor: '#FFF',
-  barSelectedColor: '#e0cfa9',
-  barBg: '#2672B8',
+  barTextColor: '#fff', // $white
+  barSelectedColor: '#e0d0aa', // $color-secondary
+  barBg: '#10396e', // $color-primary-8
 
   // Form colors
-  inputBg: '#292929',
-  inputBorder: 'silver',
-  inputTextColor: 'white',
+  inputBg: '#fff', // $white
+  inputBorder: '#79acd4', // $color-primary-4
+  inputTextColor: '#262626', // $color-gray-10
   inputBorderRadius: 8,
 
   brandTitle: 'egonoid storybook',

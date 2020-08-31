@@ -1,10 +1,77 @@
 /* stylelint-disable */
 
-/* Add colors, sizes etc. */
+$color-primary: #2f74bb;
+$color-primary-1: #ebf5fa;
+$color-primary-2: #d3e4ed;
+$color-primary-3: #a4c8e0;
+$color-primary-4: #79acd4;
+$color-primary-5: #5290c7;
+$color-primary-6: $color-primary;
+$color-primary-7: #1e5594;
+$color-primary-8: #10396e;
+$color-primary-9: #072147;
+$color-primary-10: #030e21;
 
-$primary: #2f74bb;
-$secondary: #e0cfa9;
-$success: #3adb76;
-$warning: #ffae00;
-$alert: #cc4b37;
-$gray: #cacaca;
+$color-secondary: #e0d0aa;
+$color-secondary-1: #fffdf0;
+$color-secondary-2: #fffcf0;
+$color-secondary-3: #faf6eb;
+$color-secondary-4: #ede8da;
+$color-secondary-5: $color-secondary;
+$color-secondary-6: #baa884;
+$color-secondary-7: #948162;
+$color-secondary-8: #6e5d43;
+$color-secondary-9: #473b2b;
+
+$color-success: #52c41a;
+$color-success-1: #f6ffed;
+$color-success-2: #d9f7be;
+$color-success-3: #b7eb8f;
+$color-success-4: #95de64;
+$color-success-5: #73d13d;
+$color-success-6: $color-success;
+$color-success-7: #389e0d;
+$color-success-8: #237804;
+$color-success-9: #135200;
+$color-success-10: #092b00;
+
+$color-warning: #fadb14;
+$color-warning-1: #feffe6;
+$color-warning-2: #ffffb8;
+$color-warning-3: #fffb8f;
+$color-warning-4: #fff566;
+$color-warning-5: #ffec3d;
+$color-warning-6: $color-warning;
+$color-warning-7: #d4b106;
+$color-warning-8: #ad8b00;
+$color-warning-9: #876800;
+$color-warning-10: #614700;
+
+$color-alert: #f5222d;
+$color-alert-1: #fff1f0;
+$color-alert-2: #ffccc7;
+$color-alert-3: #ffa39e;
+$color-alert-4: #ff7875;
+$color-alert-5: #ff4d4f;
+$color-alert-6: $color-alert;
+$color-alert-7: #cf1322;
+$color-alert-8: #a8071a;
+$color-alert-9: #820014;
+$color-alert-10: #5c0011;
+
+$color-gray: #bfbfbf;
+$color-gray-1: #ffffff;
+$color-gray-2: #fafafa;
+$color-gray-3: #f5f5f5;
+$color-gray-4: #f0f0f0;
+$color-gray-5: #d9d9d9;
+$color-gray-6: $color-gray;
+$color-gray-7: #8c8c8c;
+$color-gray-8: #595959;
+$color-gray-9: #434343;
+$color-gray-10: #262626;
+$color-gray-11: #1f1f1f;
+$color-gray-12: #141414;
+$color-gray-13: #000000;
+
+$white: #ffffff;
