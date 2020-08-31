@@ -1,47 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should match snapshot 1`] = `
+exports[`Splash should match snapshot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="app"
-      >
-        <div
-          class="container "
-        >
-          <header
-            class="header"
-          >
-            <h1>
-              egonoid React Template
-            </h1>
-            <img
-              alt="logo"
-              class="logo"
-              src="logo.svg"
-            />
-            <p>
-              Happy Coding!
-            </p>
-            <a
-              class="link"
-              href="https://www.egonoid.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              www.egonoid.com
-            </a>
-          </header>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="app"
-    >
       <div
         class="container "
       >
@@ -49,7 +12,7 @@ Object {
           class="header"
         >
           <h1>
-            egonoid React Template
+            Splash Component
           </h1>
           <img
             alt="logo"
@@ -57,18 +20,47 @@ Object {
             src="logo.svg"
           />
           <p>
-            Happy Coding!
+            Just a simple example
           </p>
           <a
             class="link"
-            href="https://www.egonoid.com"
+            href="https://www.example.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            www.egonoid.com
+            www.example.com
           </a>
         </header>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container "
+    >
+      <header
+        class="header"
+      >
+        <h1>
+          Splash Component
+        </h1>
+        <img
+          alt="logo"
+          class="logo"
+          src="logo.svg"
+        />
+        <p>
+          Just a simple example
+        </p>
+        <a
+          class="link"
+          href="https://www.example.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          www.example.com
+        </a>
+      </header>
     </div>
   </div>,
   "debug": [Function],
